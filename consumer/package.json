@@ -1,0 +1,24 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "book.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "standard": {
+    "env": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6"
+  }
+}
